@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0; }
+  body .ad-container {
+    width: 300px;
+    height: 250px;
+    overflow: hidden; }
+  body .ad-container:hover #cta #pill {
+    fill-rule: unset; }
+  body .ad-container:hover #cta #learn_more path {
+    fill-opacity: 1;
+    fill: #F1F2F7; }

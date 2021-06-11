@@ -1,0 +1,38 @@
+@keyframes animate-up {
+  0% {
+    visibility: visible;
+    opacity: 0;
+    transform: translateY(50px); }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0); } }
+
+#copy_01 path {
+  fill: #004B87; }
+
+.ad-container #line_01,
+.ad-container #line_02,
+.ad-container #line_03,
+.ad-container #cta,
+.ad-container #fb_lockup {
+  visibility: hidden;
+  animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+  animation-duration: 1.1s;
+  animation-fill-mode: forwards;
+  animation-name: animate-up; }
+
+.ad-container #line_01 {
+  animation-delay: 0s; }
+
+.ad-container #line_02 {
+  animation-delay: 0.16s; }
+
+.ad-container #line_03 {
+  animation-delay: 0.32s; }
+
+.ad-container #cta {
+  animation-delay: 0.48s; }
+
+.ad-container #fb_lockup {
+  animation-delay: 0.16s; }
